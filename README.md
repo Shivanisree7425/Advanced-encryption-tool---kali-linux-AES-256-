@@ -17,6 +17,7 @@ sudo apt update && sudo apt install -y \
 mkdir -p ~/advanced-encryption-tool && cd ~/advanced-encryption-tool
 python3 -m venv venv
 source venv/bin/activate
+pip install -r requirements.txt
 
 pip install --upgrade pip
 pip install cryptography
